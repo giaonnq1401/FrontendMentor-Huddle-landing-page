@@ -1,0 +1,184 @@
+:root
+{
+    /*color*/
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    
+    /*typograph*/
+    --font-family-heading: 'Poppins';
+    --font-family-body: 'Open Sans';
+}
+*::before, ::after
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: var(--font-family-body);
+    background: var(--Violet) url(./images/bg-mobile.svg) no-repeat center/contain;
+    width: 100%;
+}
+
+header
+{
+    font-family: var(--font-family-heading);
+    margin: 10% 10% 5%;
+}
+header > img
+{
+    width: 40%;
+}
+
+main
+{
+    justify-content: center;
+    display: flex;
+}
+
+.container
+{
+    margin: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.container .section-img
+{
+    padding: 8% 5%;
+}
+
+.container .section-img img
+{
+    width: 100%;
+    height: auto;
+}
+
+.section-text
+{
+    padding: 0 5%;
+    text-align: center;
+}
+
+.section-text h1
+{
+    color: white;
+}
+
+.section-text .para
+{
+    color: white;
+    line-height: 1.5;
+}
+
+.section-text button
+{
+    background-color: white;
+    color: var(--Violet);
+    width: 70%;
+    margin: 5% 0;
+    padding: 5% 0;
+    border: none;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+.section-text button:hover
+{
+    background-color: var(--Soft-Magenta);
+    cursor: pointer;
+}
+
+.container .section-social
+{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    padding-top: 15%;
+    margin: auto;
+    justify-content: center;
+}
+.section-social a
+{
+    width: 100%;
+    margin: 9%;
+}
+
+.section-social > a:hover
+{
+    cursor: pointer;
+}
+
+footer
+{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.attribution
+{
+    color: white;
+}
+.attribution a
+{
+    text-decoration: none;
+    color: var(--Soft-Magenta);
+}
+
+@media screen and (min-width: 1000px)
+{
+    body
+    {
+        font-family: var(--font-family-body);
+        background: var(--Violet) url(./images/bg-desktop.svg) no-repeat center/contain;
+        width: 100%;
+    }
+    header
+    {
+        margin: 3%;
+    }
+    header img
+    {
+        width: auto;
+    }
+    main
+    {
+        margin: 0 5%;
+    }
+    .container
+    {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .content
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .container .section-img
+    {
+        width: 120%;
+        padding: 0 5% 0 0;
+    }
+    .content .section-text
+    {
+        text-align: left;
+        padding: 0;
+    }
+    .section-text button
+    {
+        width: 50%;
+        padding: 3% 0;
+    }
+    .container .section-social
+    {
+        float: right;
+        width: 20%;
+        padding-top: 0;
+    }
+}
