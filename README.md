@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 - Desktop Preview
-![desktop-preview](./screenshot/desktop-preview.png)
+![desktop-preview](./screenshot/desktop-preview.jpeg)
 - Mobile Preview
 
 ![mobile-preview](./screenshot/mobile-preview.png)
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Ionicons](https://ionicons.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 
 ## Author

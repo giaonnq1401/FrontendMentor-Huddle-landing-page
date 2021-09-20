@@ -20,6 +20,7 @@ body
     font-family: var(--font-family-body);
     background: var(--Violet) url(./images/bg-mobile.svg) no-repeat center/contain;
     width: 100%;
+    margin: 0;
 }
 
 header
@@ -97,20 +98,35 @@ main
 {
     display: flex;
     flex-direction: row;
-    width: 55%;
-    padding-top: 15%;
+    padding-top: 14%;
     margin: auto;
     justify-content: center;
 }
-.section-social a
+
+.section-social .social
 {
-    width: 100%;
-    margin: 9%;
+    display: flex;
+    width: 2.3rem;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    margin: 0 0.4em;
 }
 
-.section-social > a:hover
+.section-social .fab
+{
+    margin: auto;
+
+}
+
+.social:hover
 {
     cursor: pointer;
+    color: var(--Soft-Magenta);
+    border: 2px solid var(--Soft-Magenta)
 }
 
 footer
