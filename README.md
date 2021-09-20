@@ -33,8 +33,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/giaonnq1401/Huddle-landing-page)
-- Live Site URL: [GitHub Pages](https://giaonnq1401.github.io/Huddle-landing-page/)
+- Solution URL: [GitHub](https://github.com/giaonnq1401/FrontendMentor-Huddle-landing-page)
+- Live Site URL: [GitHub Pages](https://giaonnq1401.github.io/FrontendMentor-Huddle-landing-page/)
+- Give feedback on [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introduction-section-8tpUeIwz1)
+
 
 ## My process
 
